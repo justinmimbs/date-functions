@@ -5,7 +5,8 @@
   "main": "lib/date-functions.js",
   "scripts": {
     "lint": "eslint lib/date-functions.js",
-    "test": "webpack && jasmine JASMINE_CONFIG_PATH=jasmine.json"
+    "test": "webpack && jasmine JASMINE_CONFIG_PATH=jasmine.json",
+    "build": "webpack"
   },
   "author": "Justin Mimbs <justin.mimbs@gmail.com>",
   "repository": {
