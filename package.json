@@ -2,12 +2,16 @@
   "name": "date-functions",
   "version": "0.1.0",
   "description": "Utility functions for working with Dates",
-  "main": "date-functions.js",
+  "main": "lib/date-functions.js",
   "scripts": {
     "lint": "eslint lib/date-functions.js",
     "test": "webpack && jasmine JASMINE_CONFIG_PATH=jasmine.json"
   },
   "author": "Justin Mimbs <justin.mimbs@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinmimbs/date-functions.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-core": "6.x.x",
