@@ -17,7 +17,7 @@ dateDiff(unit, date1, date2) // -> Number
 dateRange(interval, date1, date2, step) // -> [Date]
 ```
 
-where `unit` is any of the following date parts:
+where `unit` is one of the following strings, representing a date part:
 
 ```js
 'ms'
@@ -30,7 +30,7 @@ where `unit` is any of the following date parts:
 'year'
 ```
 
-and `interval` is any `unit` listed above and also includes:
+and `interval` is either a `unit` as listed above or one of:
 
 ```js
 'monday'
