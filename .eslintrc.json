@@ -5,6 +5,7 @@
     "no-multi-spaces": [2, { "exceptions": {
       "ArrayExpression": true,
       "ConditionalExpression": true
-    } }]
+    } }],
+    "max-len": [1, 100]
   }
 }
